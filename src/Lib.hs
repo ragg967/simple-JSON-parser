@@ -10,8 +10,6 @@ import Data.Aeson (FromJSON, ToJSON, Value, decode, encode)
 import qualified Data.ByteString.Lazy as BL
 import qualified Data.ByteString.Lazy.Char8 as BLC
 import Data.Text (Text)
-import qualified Data.Text as T
-import qualified Data.Text.IO as TIO
 
 -- Simple JSON Value type for demonstration
 data JSONValue
