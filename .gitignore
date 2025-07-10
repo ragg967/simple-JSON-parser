@@ -1,0 +1,38 @@
+# Stack
+.stack-work/
+
+# Cabal
+dist/
+dist-*
+cabal-dev/
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+cabal.project.local~
+
+# Compiled files
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+
+# Profiling and debugging
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Testing
+.HTF/
+.hpc
+
+# Environment
+.hsenv
+.ghc.environment.*
+
+# Editor files
+.vscode/
+*~
